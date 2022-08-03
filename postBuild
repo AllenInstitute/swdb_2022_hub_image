@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! test -d "swdb_2022"
+if ! test -d "/home/jovyan/swdb_2022"
 then
 	git clone https://github.com/AllenInstitute/swdb_2022.git
 fi

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+touch /home/jovyan/test_file.txt
+
 if ! test -d "/home/jovyan/swdb_2022"
 then
 	git clone https://github.com/AllenInstitute/swdb_2022.git /home/jovyan/swdb_2022

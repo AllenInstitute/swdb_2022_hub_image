@@ -2,6 +2,6 @@
 
 if ! test -d "/home/jovyan/swdb_2022"
 then
-	git clone https://github.com/AllenInstitute/swdb_2022.git
+	git clone https://github.com/AllenInstitute/swdb_2022.git /home/jovyan/swdb_2022
 fi
 cd swdb_2022

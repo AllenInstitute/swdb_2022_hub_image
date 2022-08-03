@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+s3fs visual-behavior-ophys-data /data/visual-behavior-ophys-data -o default_acl="public-read" -o complement_stat,uid=0,gid=$GROUP,umask=0222,allow_other,public_bucket="1",endpoint="us-west-2"

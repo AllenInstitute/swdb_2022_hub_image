@@ -5,6 +5,11 @@ channels:
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
   # Add other packages here
   # -
   #

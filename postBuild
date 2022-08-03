@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 touch /home/jovyan/test_file.txt
 
 if ! test -d "/home/jovyan/swdb_2022"

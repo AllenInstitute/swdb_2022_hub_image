@@ -11,7 +11,8 @@ dependencies:
   - pandas
   - scikit-learn
   - nbgitpuller
-  - jupyterlab-git
+  - pip:
+    - jupyterlab-git 
   # Add other packages here
   # -
   #

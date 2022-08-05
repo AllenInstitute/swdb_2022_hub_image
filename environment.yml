@@ -4,7 +4,7 @@ channels:
   - conda-forge
 
 dependencies:
-  - jupyter_contrib_nbextensions #==0.5.1
+  - jupyter_contrib_nbextensions==0.5.1
   - python
   - numpy
   - matplotlib

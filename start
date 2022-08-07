@@ -1,4 +1,4 @@
 #!/bin/bash
 ./setup.sh >> start.log 2>&1
 
-exec "$@"
+exec jupyterhub-roothooks --uid 1000 --gid 1000 -- "$@"

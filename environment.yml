@@ -11,8 +11,10 @@ dependencies:
   - matplotlib
   - pandas
   - scikit-learn
+  - scikit-image
   - nbgitpuller
   - jupyterlab-git
+  - h5py
   - pip
   - pip:
     - jupyterhub-roothooks==0.2.1

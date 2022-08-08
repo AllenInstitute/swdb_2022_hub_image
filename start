@@ -3,6 +3,8 @@ export NB_UID=1000
 export NB_USER=jovyan
 export NB_GID=1000
 
+# This script runs as root, while setup.sh is trying to put
+# files under $HOME readable by user.
 sudo -u ${NB_USER} ${REPO_DIR}/setup.sh >> start.log 2>&1
 
 exec jupyterhub-roothooks --uid 1000 --gid 1000 -- "$@"

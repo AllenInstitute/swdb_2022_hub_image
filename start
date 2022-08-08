@@ -1,4 +1,7 @@
-#!/bin/bash
-./setup.sh >> start.log 2>&1
+#!/bin/bash -l
+export NB_UID=1000
+export NB_GID=1000
+
+sudo -u ${NB_UID} ./setup.sh >> start.log 2>&1
 
 exec jupyterhub-roothooks --uid 1000 --gid 1000 -- "$@"

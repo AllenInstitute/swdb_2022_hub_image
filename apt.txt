@@ -1,3 +1,4 @@
 nano
 vim
 s3fs
+sudo

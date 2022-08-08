@@ -1,4 +1,4 @@
-# This is the standard conda configuration file. Use this file to list
+
 # the conda packages that you need installed in your environment.
 channels:
   - conda-forge
@@ -6,7 +6,7 @@ channels:
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
   - jupyterhub-singleuser==2.3.1 # Explicitly add jupyterhub-singleuser so the base url setup works
-  - python==3.7
+  - python==3.7.13
   - numpy
   - matplotlib
   - pandas

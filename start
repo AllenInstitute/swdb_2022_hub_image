@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash
 export NB_UID=1000
 export NB_USER=jovyan
 export NB_GID=1000

@@ -12,7 +12,7 @@ dependencies:
   - pandas
   - scikit-learn
   - nbgitpuller
-  - jupyterlab-git 
-  # Add other packages here
-  # -
-  #
+  - jupyterlab-git
+  - pip
+  - pip:
+    - jupyterhub-roothooks==0.2.1

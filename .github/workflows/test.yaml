@@ -26,6 +26,10 @@ jobs:
       with: # make sure username & password/token matches your registry
         NO_PUSH: "true"
         DOCKER_REGISTRY: "quay.io"
+        # Set repo dir explicitly so start, roothooks are available during container start
+        # Otherwise, they get put in /home/jovyan and that is mounted over by the user's
+        # persistent directory in JupyterHub
+        REPO_DIR: /srv/repo
 
         # Uncomment and modify the following line with your image name.
         IMAGE_NAME: "mabuice/swdb2022"

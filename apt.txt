@@ -3,3 +3,5 @@ vim
 s3fs
 sudo
 mysql-client
+man
+bash-completion

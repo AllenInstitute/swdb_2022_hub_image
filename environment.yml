@@ -1,6 +1,7 @@
 # the conda packages that you need installed in your environment.
 channels:
   - conda-forge
+  - pytorch
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
@@ -17,6 +18,11 @@ dependencies:
   - pyembree
   - scikit-build
   - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.6
+  - cudnn
   - pip:
       - jupyterhub-roothooks==0.2.1
       - allensdk==2.13.6

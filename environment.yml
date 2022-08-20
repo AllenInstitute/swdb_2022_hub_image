@@ -18,7 +18,7 @@ dependencies:
   - pyembree
   - scikit-build
   - pip
-  - pytorch
+  - pytorch-gpu
   - torchvision
   - torchaudio
   - cudatoolkit=11.6

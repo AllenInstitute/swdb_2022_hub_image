@@ -6,6 +6,6 @@ export NB_GID=1000
 # This script runs as root, while setup.sh is trying to put
 # files under $HOME readable by user. -E means we inherit the
 # environment, and we explicitly set PATH because -E doesn't inherit that
-sudo -E -u ${NB_USER} "PATH=${PATH}" ${REPO_DIR}/setup.sh >> start.log 2>&1
+#sudo -E -u ${NB_USER} "PATH=${PATH}" ${REPO_DIR}/setup.sh >> start.log 2>&1
 
 exec jupyterhub-roothooks --uid 1000 --gid 1000 -- "$@"
